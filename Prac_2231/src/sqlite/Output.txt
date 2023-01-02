@@ -1,0 +1,5 @@
+Brand - 'Hyundai'	Model - 'i20'
+Brand - 'Mahindra'	Model - 'Thar'
+Brand - 'Suzuki'	Model - 'Alto 800'
+Brand - 'BMW'	Model - '3 Series'
+Brand - 'Toyota'	Model - 'Fortuner'
