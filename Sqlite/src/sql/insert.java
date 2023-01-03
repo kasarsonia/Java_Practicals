@@ -7,12 +7,12 @@ import java.sql.SQLException;
 
 public class insert {
 	//create connection return it
-	private connect connect() {  
+	private Connection connect() {  
         // SQLite connection string  
 		String url = "jdbc:sqlite:/home/soniakasar/Desktop/database/DATABASE.db";  
-        connect conn = null;  
+		Connection conn = null;  
         try {  
-            conn = (connect) DriverManager.getConnection(url);  
+            conn = (Connection) DriverManager.getConnection(url);  
         } catch (SQLException e) {  
             System.out.println(e.getMessage());  
         }  
@@ -24,7 +24,7 @@ public class insert {
 	        String sql = "INSERT INTO employees(name, capacity) VALUES(?,?)";  
 	   
 	        try{  
-	            connect conn = this.connect();  
+	            Connection conn = this.connect();  
 	            PreparedStatement pstmt = ((Connection) conn).prepareStatement(sql);  
 	            pstmt.setString(1, name);  
 	            pstmt.setDouble(2, capacity);  

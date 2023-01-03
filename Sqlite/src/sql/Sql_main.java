@@ -12,6 +12,10 @@ public class Sql_main {
         app.insert("Aryan", 30000);  
         app.insert("Robert", 40000);  
         app.insert("Jerry", 50000);
+        
+        
+        select s = new select();  
+        s.selectAll();  
 	}
 
 }
