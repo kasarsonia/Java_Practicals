@@ -5,8 +5,8 @@ public class student {
 	String course = "MCA";
 	Integer s_rollno = 2251;
 	
-	public void display(Integer date) {
-		System.out.println(" Name of student: "+s_name+"Student RollNo: "+s_rollno+"Course Name: "+course);
+	public void display(String date) {
+		System.out.println(" Name of student: "+s_name+"\nStudent RollNo: "+s_rollno+"\nCourse Name: "+course);
 		System.out.println("Admission closses on: " +date);
 	}
 

@@ -17,7 +17,7 @@ public class DataWriter {
 	{
 		try 
 		{
-			write = new FileWriter("Output.txt");
+			write = new FileWriter("output.txt");
 			
 			List<Vehicle> list = new ArrayList<>();
 			list = Veh;
